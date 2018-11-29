@@ -1,0 +1,110 @@
+body
+{
+    margin-top: 60;
+    margin-left: 100;
+}
+.hexagon
+{
+    position: relative;
+}
+.h
+{
+    width: 300;
+    height: 500;
+    position: relative;
+    background-color: gold;
+    overflow: hidden;
+    visibility: hidden;
+}
+.h1
+{
+    width: 300;
+    height: 300;
+    transform: rotate(45deg);
+    background:url(images/20.jpg);
+    position: absolute;
+    top: 64;
+    visibility: visible;
+    background-position: top;
+    opacity: 0.7;
+}
+
+.hexa1,.hexa2,.hexa3,.hexa4,.hexa5,.hexa6,.hexa7
+{
+   position: absolute; 
+}
+.hexa1
+{
+    top: 0;
+    left: 310;
+}
+.hexa1 .h1
+{
+  background:url(images/a1.jpg);
+    background-position: center;
+}
+.hexa1 .h1:hover,
+.hexa2 .h1:hover,
+.hexa3 .h1:hover,
+.hexa4 .h1:hover,
+.hexa5 .h1:hover,
+.hexa6 .h1:hover,
+.hexa7 .h1:hover
+{
+opacity: 1;
+}
+.hexa2
+{
+    top: 0;
+    left: 620;
+}
+.hexa2 .h1
+{
+  background:url(images/a2.jpg);
+    background-position: center;
+}
+.hexa3
+{
+    top: 290;
+    left: 155;
+}
+.hexa3 .h1
+{
+  background:url(images/a3.jpg);
+    background-position: center;
+}
+.hexa4
+{
+    top: 290;
+    left: 464;
+}
+.hexa4 .h1
+{
+  background:url(images/a4.jpg);
+    background-position: center;
+}
+.hexa5
+{
+    top: 290;
+    left: 775;
+}
+.hexa5 .h1
+{
+  background:url(images/a5.jpg);
+    background-position: center;
+}
+.hexa6
+{
+    top: 580;
+    left: 310;
+}
+.hexa6 .h1
+{
+  background:url(images/a6.jpg);
+    background-position: center;
+}
+.hexa7
+{
+    top: 580;
+    left: 620;
+}
